@@ -11,16 +11,6 @@
 	<description>JNBT is a library that can read and write NBT files, written in Java by Graham Edgecombe and available open-source under the BSD license.</description>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<resources>
-			<resource>
-				<directory>${project.basedir}</directory>
-				<includes>
-					<include>plugin.yml</include>
-					<include>LICENSE_GPL3.txt</include>
-					<include>LICENSE_MIT.txt</include>
-				</includes>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
